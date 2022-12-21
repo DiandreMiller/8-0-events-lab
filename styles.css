@@ -4,7 +4,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: grey;
+  background-color: rgb(165, 179, 206);
 }
 
 h1,
@@ -52,7 +52,7 @@ header h1 {
   width: 50px;
 }
 
-#palette {
+ #palette {
   height: 50px;
   margin: 25px auto;
   text-align: center;
@@ -68,3 +68,16 @@ header h1 {
   height: 50px;
   width: 50px;
 }
+
+#palette .color1{
+  margin: 25px auto;
+  text-align: center;
+  width: 80%;
+  border: 2px solid #393e41;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+} 
